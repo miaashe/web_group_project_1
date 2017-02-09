@@ -1,6 +1,11 @@
 body {
   margin: 0;
 }
+h1 {
+  font-family: "PT Sans Narrow Bold", sans-serif;
+  font-size: 1.875em;
+  color: #323232
+}
 
 
 /* On devices wider than 660px */
