@@ -6,7 +6,12 @@ h1 {
   font-size: 1.875em;
   color: #323232
 }
-
+h2 {
+  font-family: "PT Sans Narrow Bold", sans-serif;
+  font-size: 1.5em;
+  color: #00897f
+  text-transform:uppercase;
+}
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
