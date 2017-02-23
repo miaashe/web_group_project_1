@@ -4,133 +4,94 @@
     <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=1.0,user-scalable=yes" name="viewport">
     <link href='./assets/css/index.css' media='all' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow:700|PT+Serif:400,700" rel="stylesheet">
-    <style>
-      a {
-        font-family: "PT Sans", sans-serif;
-        font-size: .9em;
-        color: #323232;
-        text-decoration:none
-      }
-      #catscape {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 100%;
-      }
-      #map {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        width: 100%;
-      }
-      #wrapper {
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 40px;
-        ;
-      }
-      #about-page {
-        width: 800px;
-        margin: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        background-color: white;
-        ;
-      }
-      .about{
-        width: 200px;
-        margin: 30px;
-        padding: 20px;
-        padding-left: 0px;
-        padding-right: 0px;
-        background-color: #eeeeee;
-
-      }
-      #kat-pics {
-        max-width: 700px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 40px;
-      }
-      .kats-round {
-        padding:10px
-      }
-
-    </style>
   </head>
 
   <body>
-    <nav>
-      <nav h1>Kat's Costume Shop</nav h1>
-        <nav p><a href="#about">About<a></nav p>
-        <nav p><a href="#contact">Contact<a></nav p>
+    <!--Top Navigation Bar-->
+    <nav class="nav-bar">
+      <nav h1 class="brand" >Kat's Costume Shop</nav h1>
+        <nav p class="menu-button"><a href="#contact">Contact</a></nav p>
+        <nav p class="menu-button"><a href="#about">About</a></nav p>
     </nav>
-    <div class=splash>
+    <!--Splash image on homepage-->
+    <div class="splash">
       <img id="catscape" src="assets/images/kats-hero.jpg" alt="Cat in front of cityscape saying to find the puuurrrfect costume.">
     </div>
-
+    <!--Wrapper for Intro/About section of page -->
     <div class='main' id="wrapper">
-
-      <div id="cat-titude"<h1 style="text-align:center;">Get Some Serious Cat-titude</h1>
-        <p>Kat's Costume Shop is your one stop shop to finding the
+      <!--Box for text header paragraph-->
+        <div id="cat-titude"><h1>Get Some Serious Cat-titude</h1>
+          <p>Kat's Costume Shop is your one stop shop to finding the
           best of the best cat costumes and apparel. We offer a wide
           variety of hats, sweaters, shirts, masks, sunglasses, onesies,
           capes, socks and booties. Custom orders are available upon
           request. Just stop by the store or call and ask for Mavis.</p>
-      </div>
-      <div id="about-page">
-        <div class="about" style="width:300px; float:left;">
-          <h2 style="text-align:center">About Kat</h2>
-          <p>Kat is the ultimate cat lady you've always dreamed you could
-          be. Never has a Halloween gone by where her twelve cats weren't
-          all dressed to impress. Five years ago, she decided to open
-          Kat's Costume Shop to share her passion with the world.</p>
         </div>
-        <div class="about" <div style="width:300px; float:right;">
-          <h2 style="text-align:center;">About Mavis</h2>
-          <p>Mavis has been designing custom clothes for her three
-          cats since she was fifteen years old. She loves working on
-          custom orders. Her cats are often roaming freely throughout
-          the store and modeling the latest trends.</p>
-        </div>
-      </div>
+      <!--Box for About section-->
 
-      <div id="kat-pics">
-        <div class="kats-round" <div style="width:300px; float:left;">
-          <img src="assets/images/kats-cat1.jpg" alt="Cat in backwards red hat.">
+        <div id="about-page">
+        <!--Box for child about-kat section-->
+          <div class="about" style="width:300px; float:left;">
+            <h2 style="text-align:center">ABOUT KAT</h2>
+            <p>Kat is the ultimate cat lady you've always dreamed you could
+              be. Never has a Halloween gone by where her twelve cats weren't
+              all dressed to impress. Five years ago, she decided to open
+              Kat's Costume Shop to share her passion with the world.</p>
+          </div>
+        <!--Box for child about-mavis section-->
+          <div class="about" <div style="width:300px; float:right;">
+            <h2 style="text-align:center;">ABOUT MAVIS</h2>
+            <p>Mavis has been designing custom clothes for her three
+              cats since she was fifteen years old. She loves working on
+              custom orders. Her cats are often roaming freely throughout
+              the store and modeling the latest trends.</p>
+          </div>
         </div>
-        <div class="kats-round" <div style="width:300px; float:center;">
-          <img src="assets/images/kats-cat2.jpg" alt="Cat in sunglasses and a Hawaiian lay.">
-        </div>
-        <div class=class="kats-round" <div style="width:300px; float:right;">
-          <img src="assets/images/kats-cat3.jpg" alt="Cat in jacket with turned up collar.">
-        </div>
-      </div>
 
+      <!--Box for kat-pics-->
+        <div id="kat-pics">
+
+          <div class="kats">
+            <img class="kats-round" src="assets/images/kats-cat1.jpg" alt="Cat in backwards red hat.">
+          </div>
+
+          <div class="kats">
+            <img class="kats-round" src="assets/images/kats-cat2.jpg" alt="Cat in sunglasses and a Hawaiian lay.">
+          </div>
+
+          <div class="kats">
+            <img class="kats-round" src="assets/images/kats-cat3.jpg" alt="Cat in jacket with turned up collar.">
+          </div>
+
+        </div>
     </div>
-    <div class=get-in-touch>
+
+   <!--Box for Get in Touch section-->
+    <div class="get-in-touch">
       <h1 id="contact" style="text-align:center;">Get In Touch</h1>
-      <div id="business-hours"
-        <h2 style="text-align:center;">Business Hours</h2>
-        <h3>Monday-Friday 11am - 8pm</h3>
-        <h3>Saturday 11am - 4pm</h3>
-        <h3>Sunday 12pm - 4pm</h3>
+      <!--Box for hours section-->
+      <div class="contact-boxes">
+        <div class="white-box" id="business-hours">
+          <h2>BUSINESS HOURS</h2>
+          <h3>Monday-Friday 11am - 8pm</h3>
+          <h3>Saturday 11am - 4pm</h3>
+          <h3>Sunday 12pm - 4pm</h3>
+        </div>
       </div>
-      <div id="contact-info"
-        <h2 style="text-align:center;">Contact Info</h2>
+      <!--Box for contact section-->
+      <div class="white-box" id="contact-info">
+        <h2>CONTACT INFO</h2>
         <h3>Phone (123) 456-7890</h3>
-        <h3>Address 1234 Imaginary Ln.</h3>
-        <h3>St. Louis, MO 63101</h3>
+        <h3>Address</h3>
+        <span class=orange>1234 Imaginary Ln.
+        St. Louis, MO 63101</span>
       </div>
     </div>
-    <div class=map>
+    <div class="map">
       <img id="map" src="assets/images/kats-map.jpg" alt="Map image" >
     </div>
-    <footer>
-      <footer h1 style="text-align:center;">Kat's Costume Shop</footer h1>
+    <footer class="footer">
+      <footer h1 class="white-footer">Kat's Costume Shop</footer h1>
     </footer>
   </body>
 </html>
